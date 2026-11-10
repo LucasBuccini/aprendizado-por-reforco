@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Modelos: só o melhor modelo (modelos/best_model.zip) e o histórico de
+# avaliações vão para o repositório. Checkpoints intermediários (~200 MB)
+# e o modelo final ficam só na máquina local.
+modelos/checkpoints/
+modelos/boxing_ppo_final.zip

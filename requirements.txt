@@ -1,0 +1,18 @@
+# PyTorch com suporte a GPU NVIDIA (CUDA 13.2, precisa de driver NVIDIA recente).
+# Em máquina sem GPU NVIDIA, troque as duas linhas abaixo por apenas: torch
+--extra-index-url https://download.pytorch.org/whl/cu132
+torch==2.15.0+cu132
+
+# Aprendizado por reforço + ambientes Atari (as ROMs já vêm com o ale-py)
+stable-baselines3[extra]
+gymnasium[atari]
+
+# Monitoramento do treino
+tensorboard
+
+# Vídeo do agente jogando
+imageio
+imageio-ffmpeg
+
+# Jupyter (para rodar o notebook usando este venv)
+ipykernel
